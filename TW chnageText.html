@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button id="changeTextButton">Click me to change text</button>
+    <p id="textToChange">Hello, World</p>
+  </body>
+  <script>
+    // Change text by button
+    const button1 = document.getElementById("changeTextButton");
+    const paragraph = document.getElementById("textToChange");
+    button1.addEventListener("click", function () {
+      paragraph.textContent = "You Clicked the button !";
+    });
+  </script>
+
+
+</html>
